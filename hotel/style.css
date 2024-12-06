@@ -1,0 +1,181 @@
+
+/*padrao de formatacao do projeto todo*/
+
+*{
+    background-color: #E9C46A;
+    color: #F4F4F4;
+    padding: auto;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*formatacao de elementos "soltos"*/
+h1{
+    color: #000;
+}
+
+a{
+    background-color: #2A9D8F;
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*formatacao barra de navegacao*/
+
+.div-menu{
+    background-color: #2A9D8F;
+}
+
+.menu-principal{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A9D8F;
+    text-align:center;
+    font-size: larger;
+    height: 80px;
+
+
+}
+
+
+.menu-principal p{
+    margin: 25px;
+    display: flex;
+}
+
+/*formatacao da secao inicial(mensagem de bem-vindo e "logo")*/
+
+.home{
+    background-color: #E9C46A;
+    text-align: center;
+    font-size: larger;
+    height: 30%;
+}
+
+/*formatacao da secao sobre nos do hotel*/
+
+.sobre-nos{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    background-color: #E9C46A;
+    text-align:center;
+    font-size: 23px;
+    height: 300px;
+}
+
+.sobre-nos p{
+    display: flex;
+    color: #20232b;
+}
+
+/*formatacao da secao onde estamos do hotel*/
+
+.onde-estamos{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    font-size: 23px;
+    height: 300px;
+}
+
+.onde-estamos p{
+    display: flex;
+    color: #32363f;
+}
+
+/*formatacao da secao de hospede-se ja(parte de contatos)*/
+
+.hospedese-ja{
+    background-color: #E9C46A;
+    height: 210px;
+    font-size: 22px;
+}
+
+.hospedese-ja a{
+    background-color: #E9C46A;
+}
+
+.hospedesetex1{
+    text-align: center;
+    color: #32363f;
+}
+
+.hospedesetex2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hospedesetex2 p{
+    color: #32363f;
+}
+
+.hospedesetex3{
+    text-align: center;
+    color: #32363f;
+}
+
+/*formatacao da secao de imagens em carrossel, do arquivo quartos.html*/
+
+.tela-imagens{
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    overflow: hidden;
+    height: 600px;
+    width: 600px;
+}
+.img{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 600px;
+    width: 600px;
+}
+
+/*formatacao da secao de informacao sobre as opcoes de quarto do hotel*/
+
+.quarto-basico{
+    font-size: 23px;
+    text-align: center;
+    height: 200px;
+}
+
+.quarto-basico p{
+    color: #32363f;
+}
+
+.quarto-medio{
+    font-size: 23px;
+    text-align: center;
+    height: 200px;
+}
+
+.quarto-medio p{
+    color: #32363f;
+}
+
+.quarto-luxo{
+    font-size: 23px;
+    text-align: center;
+    height: 200px;
+}
+
+.quarto-luxo p{
+    color: #32363f;
+}
